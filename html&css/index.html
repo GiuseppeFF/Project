@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Progettositoweb</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='stile.css'>
+    
+</head>
+<body>
+<img class ="logo" src="images/logo.png" alt="">
+<div class="flex_container">     
+    <div class="title" id="home">
+        <h1>
+            DIVENTA PROGRAMMATORE
+        </h1>
+    </div>
+<div class="navbar" style="display:none" id="navbar">
+    <center><button onclick="menu_close()" class="menu_close">CHIUDI MENU &times;</button></center>
+    <div class ="positionmenu"id="positionmenu">
+        <br><br><br>
+    <ul>
+          <li> <a href="#home" class="menu"id="link">HOME</a></li>
+         <li> <a href="#scopridipiu" class="menu"id="link"><nobr>PER SAPERE DI PIU'</nobr> </a></li>
+    </ul>
+    </div>
+</div>
+
+
+  
+   <center><div class="tendina"><button class="menu_open" onclick="menu_open()">--CLICCAMI--</button></div></center>
+   
+    
+    <p><h2>Diventa un
+        programmatore
+        completo
+        <br>
+    ✅ Un percorso di 1 anno per formarti a 360°
+        <br>
+    ✅ Decidi se pagare solo quando trovi lavoro
+        <br>
+    ✅ Studia online quando vuoi con tutor dedicati
+       </h2>
+    </p>
+    
+   
+
+   
+    <div class="row">
+    
+        <img src="images/html.png"  id="img1"><p>Universapp<br>offre una panoramica completa<br>sul mondo della programmazione informatica,<br>cimentati in vari corsi tra cui<br> html,css,python,javascript...etc</p>
+    </div>
+    
+    
+
+      
+    <div class="row">
+       <p  id="scopridipiu"><h1>INSERISCI LA TUA EMAIL PER MAGGIORI INFORMAZIONI.</h1>
+        </p>
+    </div>
+    <center><form action="iscrizione.html"><label for="email">email</label><input type="email">
+        <button>Registrati</button></form>
+    </center>
+</div>
+
+        
+    
+
+<script>
+        function menu_open() {
+            document.getElementById("navbar").style.width = "100%";
+            document.getElementById("navbar").style.display = "block";
+          }
+          
+          function menu_close() {
+            document.getElementById("navbar").style.display = "none";
+          }
+</script>
+
+<br><br><br>
+<footer><div class="footer">
+    <img src="images/logo.png"  id="img1"><p>Thanks to Universapp</p>
+        </div>
+        
+</footer>
+
+</body>
+
+
+</html>
